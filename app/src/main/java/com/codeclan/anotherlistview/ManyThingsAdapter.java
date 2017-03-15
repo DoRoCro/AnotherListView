@@ -15,8 +15,8 @@ import java.util.ArrayList;
 
 class ManyThingsAdapter extends ArrayAdapter<Thing> {
 
-    public ManyThingsAdapter(Context context, ArrayList<Thing> coffeeshops) {
-    super(context, 0, coffeeshops);
+    public ManyThingsAdapter(Context context, ArrayList<Thing> things) {
+    super(context, 0, things);
     }
 
     @Override
@@ -34,11 +34,11 @@ class ManyThingsAdapter extends ArrayAdapter<Thing> {
         TextView ranking = (TextView) convertView.findViewById(R.id.ranking);
         ranking.setText(currentThing.getRanking().toString());
 
-        TextView title = (TextView)  convertView.findViewById(R.id.name);
-        title.setText(currentThing.getName());
+        TextView name = (TextView)  convertView.findViewById(R.id.name);
+        name.setText(currentThing.getName());
 
-        TextView year = (TextView)  convertView.findViewById(R.id.url);
-        year.setText(currentThing.getUrl());
+        TextView url = (TextView)  convertView.findViewById(R.id.url);
+        url.setText(currentThing.getUrl());
 
 
         return convertView;

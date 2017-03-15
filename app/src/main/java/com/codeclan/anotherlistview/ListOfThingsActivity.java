@@ -26,8 +26,8 @@ public class ListOfThingsActivity extends AppCompatActivity {
     }
 
     public void titleClicked(View textView) {
-        TextView title = (TextView) textView;
-        Log.d("Title clicked ", title.getText().toString());
+        TextView name = (TextView) textView;
+        Log.d("Name clicked ", name.getText().toString());
     }
 
     public void itemClicked(View item ){
