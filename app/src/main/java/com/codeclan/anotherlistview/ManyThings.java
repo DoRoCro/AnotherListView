@@ -12,7 +12,7 @@ public class ManyThings {
 
     public ManyThings() {
         list = new ArrayList<Thing>();
-        list.add(new Thing(1, "The Old Post Office (Chapel of Garioch", "/ "));
+        list.add(new Thing(1, "The Old Post Office (Chapel of Garioch)", "/ "));
         list.add(new Thing(2, "Formartines", "/ "));
         list.add(new Thing(3, "Alford Bistro", "/ "));
         list.add(new Thing(4, "Tease", "/ "));

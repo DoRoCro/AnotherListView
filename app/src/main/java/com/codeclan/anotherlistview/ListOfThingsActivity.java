@@ -25,7 +25,7 @@ public class ListOfThingsActivity extends AppCompatActivity {
         listView.setAdapter(thingsAdapter);
     }
 
-    public void titleClicked(View textView) {
+    public void nameClicked(View textView) {
         TextView name = (TextView) textView;
         Log.d("Name clicked ", name.getText().toString());
     }

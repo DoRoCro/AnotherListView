@@ -24,7 +24,7 @@ class ManyThingsAdapter extends ArrayAdapter<Thing> {
 
         if (convertView == null) {
             convertView = LayoutInflater.from(getContext()).inflate(
-                    R.layout.activity_list,
+                    R.layout.thing_item,
                     parent,
                     false);
         }
